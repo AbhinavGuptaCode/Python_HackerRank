@@ -15,9 +15,9 @@ if __name__ == '__main__':
     #converting all elements in arr list to int type
     for j in range(n):
         arr_int.append(int(arr[j]))
-    #defining max and runner up integers
-    max_score=0
-    runner_up=0
+    #defining max and runner up integers, initializing as per constraints
+    max_score=-1000
+    runner_up=-1000
     
     for i in range(n):
         if arr_int[i]>max_score:
@@ -28,6 +28,4 @@ if __name__ == '__main__':
             runner_up=arr_int[k]
         
     print(runner_up)
-    
-
     
