@@ -1,0 +1,43 @@
+if __name__ == '__main__':
+    s = input()
+
+    indicator=False
+    
+    for i in s:
+        if i.isalnum()==True:
+            indicator=True
+        break
+        
+    print(indicator)
+
+    indicator=False
+
+    for i in s:
+        if i.isalpha()==True:
+            indicator=True
+            break
+    print(indicator)
+
+    indicator=False
+
+    for i in s:
+        if i.isdigit()==True:
+            indicator=True
+            break
+    print(indicator)
+
+    indicator=False
+
+    for i in s:
+        if i.islower()==True:
+            indicator=True
+            break
+    print(indicator)
+
+    indicator=False
+
+    for i in s:
+        if i.isupper()==True:
+            indicator=True
+            break
+    print(indicator)
