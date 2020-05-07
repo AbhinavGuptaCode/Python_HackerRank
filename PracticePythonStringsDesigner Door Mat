@@ -1,0 +1,16 @@
+if __name__=='__main__':
+
+    
+    N=int(input())
+    M=int(input())
+
+    #for printing rows above welcome
+    for i in range(int((N-1)/2)):
+        print(('.|.'*((i*2)+1)).center(M,'-'))
+
+    #for printing welcome
+    print('WELCOME'.center(M,'-'))
+
+    #for printing rows below welcome
+    for i in range(int((N-1)/2)):
+        print(('.|.'*((N-(i*2)-2))).center(M,'-'))
