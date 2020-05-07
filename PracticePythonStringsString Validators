@@ -6,7 +6,7 @@ if __name__ == '__main__':
     for i in s:
         if i.isalnum()==True:
             indicator=True
-        break
+            break
         
     print(indicator)
 
